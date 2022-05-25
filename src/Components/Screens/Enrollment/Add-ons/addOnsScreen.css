@@ -1,0 +1,101 @@
+.addOnTable table tbody tr th {
+    /* background: #FAE6BE; */
+}
+.addOnTable table tbody tr td {
+    /* background: #FAE6BE; */
+    
+}
+.addOnTable table tbody tr th span{
+    color: #420045;
+}
+.addOnTable table tbody tr td span{
+    /* color: #420045; */
+    color: #162242;
+
+}
+.addOnTable table tbody tr:last-child th {
+    /* background: #FEBF42; */
+    background: #f2b543;
+}
+.addOnTable table tbody tr:last-child td {
+    /* background: #FEBF42; */
+    background: #f2b543;
+}
+
+.smallTable table thead tr th:nth-child(1) {
+    width: 40px;
+}
+.smallTable table thead tr th:nth-child(2) {
+    width: 160px;
+}
+.smallTable table thead tr th:nth-child(13) {
+    width: 100px;
+}
+.smallTable table tbody tr td:first-child span{
+    padding: 0;
+    margin-left: 0 !important;
+}
+
+.reviewAddon table thead tr th:nth-child(1) {
+    width: 150px;
+}
+.reviewAddon table thead tr th:last-child {
+    width: 90px;
+}
+.familyDetailsTable table thead tr th:nth-child(1) {
+    width: 150px;
+}
+
+.reivewTable table tbody tr th {
+    /* background: #FAE6BE; */
+}
+.reivewTable table tbody tr td {
+    /* background: #FAE6BE; */
+}
+.reivewTable table tbody tr th span{
+    color: #420045;
+}
+.reivewTable table tbody tr td span{
+    color: #420045;
+}
+/* .reivewTable table th, .reivewTable table td {
+    border: 1px solid #ededed;
+} */
+.reivewTable table tbody tr td:last-child {
+    /* background: #F0C8A0; */
+    width: 72px;
+}
+
+.reivewTable table tbody tr:last-child th {
+    /* background: #FEBF42; */
+    background: #f2b543;
+}
+.reivewTable table tbody tr:last-child td {
+    /* background: #FEBF42; */
+    background: #f2b543;
+}
+
+.reivewTable table tbody tr:last-child td:last-child {
+    /* background: #F48366; */
+    background: #f2b543;
+}
+
+.reviewChoice table thead tr th:first-child{
+    width: 180px;
+}
+.popupTable table thead tr th:first-child{
+    width: 152px !important;
+}
+.modal-open .modal-backdrop:nth-child(n-1) {
+    z-index: 1050;
+}
+
+.reEnrollTable table tbody tr:nth-last-child(2) th {
+    background: #FEBF42;
+}
+.reEnrollTable table tbody tr:nth-last-child(2) td {
+    background: #FEBF42;
+}
+.reEnrollTable table tbody tr:nth-last-child(2) td:last-child {
+    background: #F48366;
+}

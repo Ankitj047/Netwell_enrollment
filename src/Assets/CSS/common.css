@@ -1,0 +1,87 @@
+/* .selectProgStep div:first-child > span svg {
+    color: rgba(0, 0, 0, 0.38) !important;
+}
+.setupFamilyStep div:nth-child(2) > span svg {
+    color: rgba(0, 0, 0, 0.38) !important;
+} */
+
+.accountNumDiv {
+    margin-bottom: -45px;
+}
+#s input[type="text"]:disabled, #fam input[type="text"]:disabled{
+    opacity: 0.5;
+}
+#fam .MuiInputBase-input.Mui-disabled {
+    opacity: 0.5;
+}
+.effectiveDateSection {
+    width: 85%;
+    font-size: 15px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background: #FEE6C2;
+    padding: 8px 0px;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.effectiveDateSection div {
+    padding: 0 0 0 15px;
+}
+.paymentDatesWrapper {
+    width: 85%;
+    font-size: 15px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.paymentDatesWrapper h5{
+    font-size: 16px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.paymentDatesWrapper h6{
+    font-size: 12px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0;
+    text-indent: -5px;
+}
+.paymentDatesWrapper .detailsTableHeader{
+    background: #DDDDDD;
+}
+.detailsTableHeader .detailsTableRow{
+    font-weight: bold;
+}
+.paymentDatesWrapper .detailsTable {
+    margin-left: 0;
+    margin-right: 0;
+}
+.paymentDatesWrapper .detailsTable .detailsTableRow {
+    padding: 5px 0 5px 15px;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+.paymentDatesWrapper .detailsTable .detailsTableRow:last-child {    
+    border-right: 1px solid #DDDDDD;
+}
+@media screen and (max-width: 450px) {
+    .accountNumDiv {
+        margin-bottom: 45px;
+    }
+    .effectiveDateSection {
+        width: 100%;
+    }
+    .effectiveDateSection div {
+        padding: 0 10px 0 15px;
+        text-align: left;
+    }
+    .paymentDatesWrapper {
+        width: 100%;
+    }
+    .paymentDatesWrapper .detailsTable .detailsTableRow {
+        padding: 5px 10px 5px 15px;
+        text-align: left;
+    }
+}

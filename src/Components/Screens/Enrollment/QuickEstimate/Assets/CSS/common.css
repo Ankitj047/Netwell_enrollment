@@ -1,0 +1,206 @@
+/* Header right logo- */
+
+.right_logo{  
+    width: 100px;
+  }
+
+  /* Web footer-------chat button and text */
+
+  .rightAlign{
+    text-align: right;
+}
+
+.chat_footer h5{
+    color: #3ec7f1;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.chat_footer a{
+    color: #3ec7f1;
+    text-decoration: underline;
+}
+.chat_footer p{
+    margin: 0;
+    font-size: 14px;
+}
+.h5_tag{
+    margin-top: 0px;
+}
+
+/* Details Page ---- */
+
+
+.video_tag{
+    width:400px;
+    height: 210px;
+    background-color: lightgray;
+}
+
+/* Home page css--- */
+.web_container{
+ 
+    padding: 20px 30px;
+    background-color: white;
+
+}
+
+.right_logo{
+   
+   width: 100px;
+}
+.h4_text{
+    margin-top: 50px;
+}
+.p_tag{
+    margin-top:15px
+}
+
+.form_tag{
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+.button_tag{
+    margin-top:40px
+}
+
+.section_wrap{
+    flex-wrap: nowrap !important;
+}
+.mainWrapper{
+    top:0;
+    position: relative;
+    padding: 0 25px;
+    /* margin-top: -28vh;
+    margin-left: 1vw; */
+}
+
+.web_container h4{
+ font-family: Roboto, Arial, Helvetica, sans-serif;
+ color: #f7007d;
+ 
+}
+
+.web_container p {
+ font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+
+.row-m-t{
+    margin-top : 10px
+  }
+
+.helperText {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+} 
+.textBold{
+    font-weight: bold;
+}
+.welcome_download_logo {
+    margin-left: 15px;
+    height: 42px;
+    width: 42px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+ /*------ Message modal  --------------*/
+ .msgModalWrapper .modal-header{
+    background: #33AFB0;
+ }
+ .msgModalWrapper .modal-header .modal-title{
+    background: #33AFB0;
+ }
+ .msgModalWrapper .modal-footer .btn-ok{
+    background: #febf42;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .popupMsgWrapper {
+     padding: 10px 0;
+ }
+ .popupMsgWrapper p {
+     margin: 0;
+ }
+
+.contentWrapper {
+    margin-top: 50px;
+    min-height: 450px;
+}
+.amountText{
+    font-size: 24px;
+    color:#27AE60;
+    margin: 10px 0;
+}
+.frameBackground{
+    background-color: #E3E5E5;
+    padding: 10px 28px;
+    border-radius: 6px;
+    margin: 30px 0px 0px 0px;
+    z-index: 0;
+    position: relative;
+}
+.frameBackground_Agent{
+    background-color: #CCCCCC;
+    padding: 10px 28px;
+    border-radius: 6px;
+    margin: -10px 0 0 0;
+    z-index: -1;
+}
+.callAgent{
+    
+    flex-grow: 0;
+    margin: 0 0 5px 0;
+    /* font-family: Candara; */
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.submitBtn button:disabled{
+    background-color: #D3D3D3;
+}
+.chat_footer {
+    margin-top: 20px;
+}
+.footerBackColor{
+    background-color: lightgray;
+    padding: 10px;
+}
+.footerBackColor p{
+    margin:0px;
+    font-size: 14px;
+}
+
+
+
+/*--=== Media Query 
+=============================================--*/
+@media only screen and (max-width: 460px) {
+    .web_container {
+        padding: 20px 15px;
+    }
+    .contentWrapper {
+        margin-top: 30px;
+    }
+    .left_logo {
+        width: 120px;
+    }
+    .right_logo {
+        width: 65px;
+    }
+    .h4_text {
+        margin-top: 30px;
+    }
+    .button_tag {
+        margin-top: 30px;
+    }
+}
